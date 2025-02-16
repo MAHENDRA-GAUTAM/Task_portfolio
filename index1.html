@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra.Tech</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- Start Header Section -->
+<header >
+    <div class="navbar">
+        <div>
+            <img class="logo" src="logo.png" alt="mahendra.tech">
+        </div>
+        <div class="nav">
+            <a href='#home'>home</a>
+            <a href='#about'>about</a>
+            <a href='#project'>project</a>
+            <a href='#skills'>skills</a>
+            <a href='#contact'>contact</a>
+        </div>
+    </div>
+</header>
+
+<!-- Start Hero Section -->
+<main id="home">
+    <div class="hero-section" data-aos="fade-zoom-in">
+        <div class="image" >
+            <img src="3d.png" alt="Mahendra.tech">
+        </div>
+        <div class="text">
+            <h1 ">Hi, I'm Mahendra Gautam, an aspiring Web Developer passionate about building responsive and user-friendly websites. Currently learning JavaScript and React to enhance my skills.</h1>
+            <p >I'm Mahendra Gautam, a fresher web developer who loves coding and creating web experiences. Always learning, always building!</p>
+            <a href="mahendra gautam.pdf" download>
+                <button class="btn" data-aos="fade-up">Download CV</button>
+            </a>
+        </div>
+    </div>
+</main>
+
+<!-- Start About Section -->
+<section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <div class="about-image" data-aos="zoom-in">
+            <img src="mahendra.jpg" alt="About Me">
+        </div>
+        <div class="about-text" data-aos="fade-up">
+            <p>
+                My name is Mahendra and I hail from Mau Aima, Prayagraj.
+                I am currently pursuing a Bachelor of Computer Applications (BCA) degree.
+                I am passionate about technology and enjoy exploring new programming languages and software.
+                I possess strong problem-solving skills and am a quick learner.
+                In the future, I aspire to become a successful software developer and contribute to innovative projects that make a positive impact on society.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Start Project Section -->
+<section id="project" data-aos="fade-up">
+    <h2>Projects</h2>
+    <h3 data-aos="fade-up">Calculator</h3>
+    <p data-aos="fade-up">I built a calculator using HTML, CSS, and JavaScript that works seamlessly for basic arithmetic operations.</p>
+    <h3 data-aos="fade-up">Digital Clock</h3>
+    <p data-aos="fade-up">Created a digital clock using HTML, CSS, and JavaScript that shows the current time in a neat, real-time format.</p>
+    <h3 data-aos="fade-up">To-Do List</h3>
+    <p data-aos="fade-up">Developed a To-Do list application using JavaScript, allowing users to add, delete, and mark tasks as completed.</p>
+</section>
+
+<!-- Start Skills Section -->
+<section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul>
+        <li data-aos="fade-up"><i class="fa-brands fa-html5" style="color: #e34c26;"></i> HTML5</li>
+        <li data-aos="fade-up"><i class="fa-brands fa-css3-alt" style="color: #264de4;"></i> CSS</li>
+        <li data-aos="fade-up"><i class="fa-brands fa-js" style="color: #f7df1e;"></i> JavaScript</li>
+        <li data-aos="fade-up"><i class="fa-brands fa-java" style="color: #f89820;"></i> Core Java</li>
+        <li data-aos="fade-up"><i class="fa-brands fa-python" style="color: #3776AB;"></i> Basic Python</li>
+        <li data-aos="fade-up"><i class="fa-solid fa-code" style="color: #5c6bc0;"></i> C Language</li>
+        <li data-aos="fade-up"><i class="fa-solid fa-database" style="color: #ff9800;"></i> DSA Using C & C++</li>
+    </ul>
+</section>
+
+<!-- Start Contact Section -->
+<section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required data-aos="fade-up">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required data-aos="fade-up">
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your message" required data-aos="fade-up"></textarea>
+
+        <button type="submit" data-aos="fade-up">Send Message</button>
+    </form>
+</section>
+
+<!--  Start Footer section -->
+<footer>
+<section id="copy" data-aos="fade-up">
+    <p>&copy; 2025 Mahendra.Tech</p>
+</section>
+
+</footer>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000, 
+        once: true, 
+    });
+</script>
+
+</body>
+</html>
